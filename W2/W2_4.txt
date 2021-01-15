@@ -8,3 +8,4 @@
 	$ mv test new_test
 	$ mv new_test /home/new
 	$ ls -a
+.
