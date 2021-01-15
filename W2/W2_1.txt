@@ -13,3 +13,4 @@
 	C program
 	^D(ctrl + D)
 	$ cat test
+	.
