@@ -8,3 +8,4 @@
 	$cd ~/new
 	$rmdir new
 	$ls -a
+.

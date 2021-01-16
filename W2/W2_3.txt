@@ -8,3 +8,4 @@
 	$ mkdir new
 	$ cp test new
 	$ ls
+.
