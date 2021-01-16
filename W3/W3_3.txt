@@ -1,0 +1,19 @@
+	다음과 같은 내용을 작성하여라.
+
+1 aaa aaa bbb bbb ccc ccc
+2 aaa aaa bbb bbb ccc ccc
+3 aaa aaa bbb bbb ccc ccc
+4 aaa aaa bbb bbb ccc ccc
+5 aaa aaa bbb bbb ccc ccc
+
+	1) :%s/bbb/aaa/g 명령을 수행해보아라. 무슨 명령인지 설명하여라. 
+	문서 내의 모든 bbb를 aaa로 대체
+
+	2) :1,3s/bbb/aaa/g 명령을 수행해보아라. 무슨 명령인지 설명하여라. 
+	1행~3행에서 모든 bbb를 aaa로 대체
+
+	3) :4s/bbb/aaa/g 명령을 수행해보아라. 무슨 명령인지 설명하여라. 
+	4행에서 모든 bbb를 aaa로 대체
+
+	4) :1,3s/bbb/aaa/ 명령을 수행해보아라. 무슨 명령인지 설명하여라. 
+	1행~3행에서 첫번째로 나오는 bbb를 aaa로 대체 

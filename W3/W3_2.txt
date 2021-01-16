@@ -1,0 +1,17 @@
+	program.c 파일에 다음과 같은 내용을 작성하여라.
+
+1 #include <stdio.h>
+2 int main(void) {
+3	int i, total;
+4
+5	total = 0;
+6	for(i=0; i<100; i++) {
+7		total +=i;
+8	}
+9	return 0;
+10}
+
+	앞에서 작성한 문서에서 구역 복사 방법을 이용하여 6행부터 8행을 복사하고
+	8행 이후에 붙여 넣기를 하기 위한 명령을 작성하여라. 
+
+	:6, 8 co 8

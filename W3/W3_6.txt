@@ -1,0 +1,10 @@
+	vi로 exec.txt 파일을 아래와 같이 입력한 후 
+	명령 모드에서 ZZ를 입력해보자. 
+	이 명령과 동일한 명령을 작성하여라. 
+
+	Good morning everyone.
+	Nice to meet you.
+	I am a linux beginner.
+	Now introduce yourself.
+
+	:wq
