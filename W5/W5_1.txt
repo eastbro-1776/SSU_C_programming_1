@@ -1,0 +1,18 @@
+다음 중 변수 이름으로 사용할 수 없는 것을 고르고 그 이유를 설명하여라.
+
+3id      __yes(밑줄 두 개)    o_no_o_no    main          star*it
+_i_am    printf	             me_to-2      xYshouldI     int      Float     
+_        __(밑줄 두 개)       __Bool(밑줄 두 개)
+	
+다음과 같은 형식의 프로그램을 작성하여 답을 확인하여라. 만일 변수 이름으로 적합하지 않다면 컴파일 할 때 오류 메시지가 출력될 것이다.
+
+#include <stdio.h>
+int main(void){
+   int  3id;
+   return 0;
+}
+
+• 설명 : 
+- 3id : 숫자로 시작 
+- int : 키워드 
+- star*it : 특문 '*' 포함
