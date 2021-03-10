@@ -1,0 +1,30 @@
+C99는 부동형의 특성을 기술하는 매크로들을 <float.h>에 정의하고 있다. 
+각 매크로의 의미는 매크로 이름을 보면 금방 이해할 수 있다.
+FLT_DIG, DBL_DIG, LDBL_DIG는 각 형의 정밀도를 의미한다.
+
+아래 표를 작성하라.
+표를 완성할 때 다음과 같은 프로그램을 사용하여라.
+ 
+#include <stdio.h>
+#include <float.h>
+int main(void)
+{  
+    printf("FLOAT_MIN : %g\n", FLT_MIN);
+    printf("FLOAT_MAX : %g\n", FLT_MAX);
+    printf("FLOAT_DIG : %d\n", FLT_DIG);
+    return 0;
+}
+ 
+ 기본형          매크로          값
+ 
+ float           FLT_MIN         1.17549e-38
+                 FLT_MAX         3.40282e+38
+                 FLT_DIG         6
+ 
+ double          DBL_MIN         2.22507e-308
+                 DBL_MAX         1.79769e+308
+                 DBL_DIG         15
+ 
+ long double     LDBL_MIN        3.3621e-4932
+                 LDBL_MAX        1.18973e+4932
+                 LDBL_DIG        18
