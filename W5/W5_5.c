@@ -9,7 +9,7 @@ Input numbers : 9  8 (Enter)
 int main(void){
 int a, b, mul;
 
-printf("Input numbers :");
+printf("Input numbers : ");
 scanf("%d %d", &a, &b);
 
 mul = a*b;
