@@ -5,10 +5,17 @@
 int main(void)
 {
     int a, b = 0, c = 0;
+<<<<<<< HEAD
 	a = ++b + ++c;
     printf("%d %d %d\n", a, b, c);
     a = b++ + c++;
 	printf("%d %d %d\n", a, b, c);
+=======
+    a = ++b + ++c;
+    printf("%d %d %d\n", a, b, c);
+    a = b++ + c++;
+    printf("%d %d %d\n", a, b, c);
+>>>>>>> 5c7d86d4b22dba1770ece00eb6327efc7b6dc7af
     a = ++b + c++;
     printf("%d %d %d\n", a, b, c);
     a = b-- + --c;

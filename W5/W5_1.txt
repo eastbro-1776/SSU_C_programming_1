@@ -16,3 +16,4 @@ int main(void){
 - 3id : 숫자로 시작 
 - int : 키워드 
 - star*it : 특문 '*' 포함
+- me_to-2 : 특문 '-' 포함
